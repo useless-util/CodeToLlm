@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "codetollm"
+version = "0.1.0"
+description = ""
+authors = ["tsk902000 <kai902000@gmail.com>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+anthropic = "^0.2.5"
+openai = "^1.0.0"
+astor= "^0.8.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
